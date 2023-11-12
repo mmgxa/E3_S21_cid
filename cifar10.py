@@ -149,7 +149,7 @@ INPUT_REQUEST = "https://raw.githubusercontent.com/kubeflow/pipelines/master/sam
 prepare_tensorboard_op = load_component_from_file("yaml/tensorboard_component.yaml")
 prep_op = load_component_from_file("yaml/preprocess_component.yaml")
 train_op = load_component_from_file("yaml/train_component.yaml")
-deploy_op = load_component_from_file("yaml/kserve_component.yaml")
+deploy_op = load_component_from_file("yaml/deploy_component.yaml")
 pred_op = load_component_from_file("yaml/prediction_component.yaml")
 minio_op = load_component_from_file("yaml/minio_component.yaml")
 
