@@ -136,7 +136,7 @@ print(f"creating kfp pipeline client")
 
 client = kfp.Client(host=INGRESS_GATEWAY + "/pipeline", cookies=COOKIE)
 
-client.create_experiment(EXPERIMENT)
+# client.create_experiment(EXPERIMENT)
 experiments = client.list_experiments(namespace=NAMESPACE)
 my_experiment = experiments.experiments[0]
 
