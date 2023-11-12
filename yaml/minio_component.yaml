@@ -24,7 +24,7 @@ outputs:
   - {name: MLPipeline UI Metadata, description: "MLPipeline UI Metadata output"}
 implementation:
   container:
-    image: public.ecr.aws/f2t6q8t2/kubeflow_aws_p310-pt21_cpu:202311120631
+    image: public.ecr.aws/f2t6q8t2/kubeflow_aws_p310-pt21_cpu:202311120749
     command: ["python3", "utils/upload_to_minio.py"]
     args:
       - --bucket_name

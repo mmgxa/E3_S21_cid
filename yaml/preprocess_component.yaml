@@ -21,7 +21,7 @@ implementation:
   container:
     # For GPU use
     # image: public.ecr.aws/pytorch-samples/kfp_samples:latest-gpu
-    image: public.ecr.aws/f2t6q8t2/kubeflow_aws_p310-pt21_cpu:202311120631
+    image: public.ecr.aws/f2t6q8t2/kubeflow_aws_p310-pt21_cpu:202311120749
     command: ["python3", "code/cifar10_pre_process.py"] #Ex: ['python3', 'bert/bert_pre_process.py']
     args:
       - --output_path
